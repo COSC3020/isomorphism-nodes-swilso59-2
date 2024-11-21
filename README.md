@@ -20,7 +20,10 @@ Direct Proof:
 - This violates the bijection requirement.
   - There are more vertices in $B$ than in $A$. This makes it impossible for every vertex in $B$ to be mapped to by a vertex in $A$.
   - This breaks the onto condition of bijection.
+- If the funtion is onto you would need to at least map one vertex from $A$ to multiple vertex in $B$.
+  - This would cause a violation of the one-to-one condition of bijecton condition.
 -  This shows that two graphs that do not have the same number of nodes cannot be isomorphic.
+
 
 This assignment I adapted the counter example I used to gain understanding of the isomorphism condition. This counter example was an idea I origninally got from https://github.com/COSC3020/isomorphism-connectivity-DJReflexive.
 
