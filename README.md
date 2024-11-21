@@ -12,13 +12,13 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 
 ## Answer 
 Direct Proof:
-- If we have two graphs $H_{1}$ and $H_{2}$.
-  - $H_{1}$ has 3 vertices $(A, B, C)$ and one edge $(A, B)$.
-  - $H_{2}$ has 4 vertices $(1, 2, 3, 4)$ and one edge $(1, 2)$.
-- There is no one-to-one and onto mapping between $H_{1}$ and $H_{2}$.
-- There is no vertex in $H_{1}$ that can correspond to 4 in $H_{2}$.
+- If we have two graphs $A$ and $B$.
+  - $A$ has 3 vertices $(a, b, c)$ and one edge $(a, b)$.
+  - $B$ has 4 vertices $(1, 2, 3, 4)$ and one edge $(1, 2)$.
+- There is no one-to-one and onto mapping between $A$ and $B$.
+- There is no vertex in $A$ that can correspond to 4 in $B$.
 - This violates the bijection requirement.
-  - There are more vertices in $H_{2}$ than in $H_{1}$. This makes it impossible for every vertex in $H_{2}$ to be mapped to by a vertex in $H_{1}$.
+  - There are more vertices in $B$ than in $A$. This makes it impossible for every vertex in $B$ to be mapped to by a vertex in $A$.
   - This breaks the onto condition of bijection.
 -  This shows that two graphs that do not have the same number of nodes cannot be isomorphic.
 
