@@ -13,11 +13,11 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 ## Answer 
 Direct Proof:
 - If we have two graphs $A$ and $B$.
-  - $A$ has 3 vertices $(a, b, c)$ and one edge $(a, b)$.
-  - $B$ has 4 vertices $(1, 2, 3, 4)$ and one edge $(1, 2)$.
-- There is no one-to-one and onto mapping between $A$ and $B$.
-- There is no vertex in $A$ that can correspond to 4 in $B$.
-- This violates the bijection requirement.
+  - $A$ has a set of vertices $V_{A}$ set of edges $E_{A}$.
+  - $B$ has a set of vertices $V_{B}$ set of edges $E_{B}$.
+  - $|V_{A}| = m$ and $|V_{B}| = n$, where $m \neq n$.
+- If we assome ethat $m < n$, So graph $A$ has fewer vertex then graph $B$.
+- our function $f: V_{A} \rightarrow V_{B}$ must satisfy the conditions of bijection. 
   - There are more vertices in $B$ than in $A$. This makes it impossible for every vertex in $B$ to be mapped to by a vertex in $A$.
   - This breaks the onto condition of bijection.
 - If the funtion is onto you would need to at least map one vertex from $A$ to multiple vertex in $B$.
